@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TARLA</title>
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="/examples/libs/chief-slider/chief-slider.min.css">
+  <link rel="icon" type="image/png" href="./icons/favicon_32x32.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script defer src="/examples/libs/chief-slider/chief-slider.min.js"></script>
+  
+</head>
+<body>
+
+  <div class="container">
+ 
+    <!-- бургер меню -->
+    <div class="burger_block">
+      <div class="close_burger_block">
+          <img class="close_burger" src="./icons/arrow_left_white.png" alt="" >
+      </div>
+      <div class="burger_link">
+        <ul>
+          <li>
+            <a class="burger_items" href="#">Shop</a>
+          </li>
+          <li>
+            <a class="burger_items" href="#">Our Stroy</a>
+          </li>
+          <li>
+            <a class="burger_items" href="#">Who is Tarla</a>
+          </li>
+          <li>
+            <a class="burger_items" href="#">FAQ</a>
+          </li>
+          <li>
+            <a class="burger_items" href="#">Account</a>
+          </li>
+         
+        </ul>
+
+      </div>
+  
+    
+
+    </div>
+    <div class="post_code">
+      <p class="close">X</p>
+      <h2 class="post__title">Вы находитесь <br> в Лондоне</h2>
+    </div>
+    <!-- Модальное окно корзинки -->
+    <div class="card_block">
+      <!-- закрытие модалки -->
+      <div class="close_modal"> <img class="close__btn" src="./icons/arrow_left.png" alt=""></div>
+      <!-- корзинка -->
+      <div class="card_wrapper">
+        <!-- <div class="card_item" id="02">
+            <p class="card__price">17£</p>
+            <img class="card_photo" src="./img/Rectangle (2).png" alt="" ">
+            <h2 class="card_title">Allmond <br>
+             Croissant </h2>
+      
+             <div class="item_counter_wrapper">
+              <div class="counter__plus" data-action="plus">+</div>
+              <div class="counter_number" data-counter="">1</div>
+              <div class="counter__minus" data-action="minus">-</div>
+            </div>
+
+          </div> -->
+        <h1 class="menu__title">NO BUNS IN <br> THIS OVEN</h1>
+
+      </div>
+
+
+      <div class="card_price">
+        <p class="card__total">Total 0</p>
+        <button class="buy__btn">Buy</button>
+      </div>
+
+    </div>
+    <!-- первый HEADER -->
+    <div class="first_header">
+      <p class="first_header_title">
+        We're focusing on London to start with, please enter your post code
+        here to see if you're within our delivery zone!
+      </p>
+      <input type="text" class="first_header_input" placeholder="Post code" />
+      <button class="first_header_btn">Check</button>
+      <!-- <img class="close1" src="./icons/x.png" alt="close" /> -->
+    </div>
+    <!-- Второй Header -->
+    <div class="second_header">
+      <!-- Бургер инонка -->
+      <img class="burger_icon" src="./img/burger.svg" alt="">
+      <div class="second_header_block">
+        <img src="./icons/Tarla.png" alt="" class="second_header_title" />
+        <div class="second_header_link">
+          <a href="#down" class="link_item">SHOP</a>
+          <a href="#" class="link_item">OUR STORY</a>
+          <a href="#" class="link_item">WHO IS TARLA</a>
+        </div>
+      </div>
+      <div class="second_header_block2">
+        <div class="counter_items">0</div>
+        <div class="header_account_block">
+          <img src="./icons/account.png" alt="" class="second_header_item" />
+          <p class="second_header_subtitle">Log in</p>
+        </div>
+        <div class="header_shop_block">
+          <img src="./icons/shop.png" alt="" class="second_header_item" />
+          <p class="second_header_subtitle">Card</p>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="first_main">
+        <div class="main_title">
+          Fresh <br />
+          Pastry kits
+        </div>
+        <p class="main__subtitle">
+          Bringing the smells and tastes of your favourite <br />
+          patisserie to your home. Our kits have everything you <br />
+          need to easily make killer pastries every time. We’ve <br />
+          done the tricky bits so all you need to do is roll, proof <br />
+          and bake!
+        </p>
+
+        <a href="#down"><button class="main__btn">Shop pastry kits</button></a>
+
+      </div>
+      <div class="second_main">
+        <div class="second_buttons"> 
+           <img class="arrow_left" src="./icons/arrow_right.png" alt="">
+           <img class="arrow_right" src="./icons/arrow_left.png" alt="">
+          </div>
+           <div class="offer_slide">     
+               <img data-aos="flip-left" class="second_img" src="./img/main.png" alt="">
+              </div>
+              <div class="offer_slide">     
+                <img class="second_img" src="./img/11.png" alt="">
+               </div>
+               <div class="offer_slide">     
+                <img class="second_img" src="./img/7.png" alt="">
+               </div>
+           
+ 
+     
+      </div>
+    </div>
+    <div class="block_how_it_work">
+      <h2 class="block__title">How it works</h2>
+      <div class="info_block">
+        <div  data-aos="flip-left"  class="info_items">
+          <img class="info__img" src="./img/Choose_200x.gif" alt="" />
+          <h2 class="info__title">
+            Choose your <br />
+            fave
+          </h2>
+          <p class="info__subtitle">
+            This sounds easier than it's going to be. We've got all the
+            classics on here, so now it's over to you.
+          </p>
+        </div>
+        <div data-aos="flip-left" class="info_items">
+          <img class="info__img" src="./img/Ding_Dong_200x.gif" alt="" />
+          <h2 class="info__title">
+            Ding <br />
+            dong
+          </h2>
+          <p class="info__subtitle">
+            This sounds easier than it's going to be. We've got all the
+            classics on here, so now it's over to you.
+          </p>
+        </div>
+        <div data-aos="flip-left" class="info_items">
+          <img class="info__img" src="./img/ezgif-2-b9ca4aa5d27c_200x.gif" alt="" />
+          <h2 class="info__title">
+            Get <br />
+            baked
+          </h2>
+          <p class="info__subtitle">
+            This sounds easier than it's going to be. We've got all the
+            classics on here, so now it's over to you.
+          </p>
+        </div>
+        <div data-aos="flip-left" class="info_items">
+          <img class="info__img" src="./img/Take_the_Credit_200x.gif" alt="" />
+          <h2 class="info__title">
+            Take the <br />
+            credit
+          </h2>
+          <p class="info__subtitle">
+            This sounds easier than it's going to be. We've got all the
+            classics on here, so now it's over to you.
+          </p>
+        </div>
+      </div>
+      <a href="#down"><button class="info__btn">Shop pastry kits</button></a>
+
+    </div>
+    <div class="freshly_block">
+      <div class="freshly">
+        <!-- <img src="./img/Rectangle (1).png" alt="" class="freshly_img" /> -->
+      </div>
+      <div class="freshly2">
+        <div class="sun_block">
+          <img class="sun" src="./img/sun.svg" alt="">
+        </div>
+
+        <h2 class="freshly__title">
+          Freshly baked means fresh bakery <br />
+          smells filling your home, warm <br />
+          oozey pastries on your plates, <br />
+          and never needing to get out of your PJs.
+        </h2>
+        <a href="#down"><button class="freshly__btn">Shop pastry kits</button></a>
+
+      </div>
+    </div>
+    <div class="ticker_block">
+      <div> 
+        <i class="ticker_title">Now shipping nationwide. Let the good times roll </i>
+        <i class="ticker_title">Now shipping nationwide. Let the good times roll </i>
+        <i class="ticker_title">Now shipping nationwide. Let the good times roll </i>
+        <i class="ticker_title">Now shipping nationwide. Let the good times roll </i>
+      </div>
+
+
+    </div>
+    <!-- Блок с продуктами -->
+    <div class="shop_block">
+      <h2 class="shop__title">Shop pastry kits</h2>
+      <!-- Grid Сетка-->
+      <div id="down" class="shop_grid">
+        <!-- Первый продукт -->
+        <div id="01" class="grid_items">
+          <img data-aos="zoom-in" src="./img/1.png" alt="" class="grid_img" />
+
+          <h3 class="item__name">
+            All-Butter <br />
+            Croissant
+          </h3>
+          <div class="item_counter_wrapper">
+            <div class="item_counter_pls" data-action="plus">+</div>
+            <div class="item_counter" data-counter="">1</div>
+            <div class="item_counter_min" data-action="minus">-</div>
+          </div>
+          <p class="item__price">12£</p>
+          <button data-cart="button" class="item__btn">Add to cart</button>
+        </div>
+        <!-- второй продукт -->
+        <div id="02" class="grid_items">
+          <img data-aos="zoom-in" src="./img/2.png" alt="" class="grid_img" />
+          <h3 class="item__name">
+            Almond <br />
+            Croissant
+          </h3>
+          <div class="item_counter_wrapper">
+            <div class="item_counter_pls" data-action="plus">+</div>
+            <div class="item_counter" data-counter="">1</div>
+            <div class="item_counter_min" data-action="minus">-</div>
+          </div>
+          <p class="item__price">8£</p>
+          <button data-cart="button" class="item__btn">Add to cart</button>
+        </div>
+        <!-- третий продукт -->
+        <div id="03" class="grid_items">
+          <img data-aos="zoom-in" src="./img/3.png" alt="" class="grid_img" />
+          <h3 class="item__name">
+            Raspberry <br />
+            Danish
+          </h3>
+          <div class="item_counter_wrapper">
+            <div class="item_counter_pls" data-action="plus">+</div>
+            <div class="item_counter" data-counter="">1</div>
+            <div class="item_counter_min" data-action="minus">-</div>
+          </div>
+          <p class="item__price">11£</p>
+          <button data-cart="button" class="item__btn">Add to cart</button>
+        </div>
+        <!-- четвертый продукт -->
+        <div id="04" class="grid_items">
+          <img data-aos="zoom-in" src="./img/4.png" alt="" class="grid_img" />
+          <h3 class="item__name">
+            Pain Aux <br />
+            Raisins
+          </h3>
+          <div class="item_counter_wrapper">
+            <div class="item_counter_pls" data-action="plus">+</div>
+            <div class="item_counter" data-counter="">1</div>
+            <div class="item_counter_min" data-action="minus">-</div>
+          </div>
+          <p class="item__price">8£</p>
+          <button data-cart="button" class="item__btn">Add to cart</button>
+        </div>
+        <!--пятый продукт -->
+        <div id="05" class="grid_items">
+          <img data-aos="zoom-in" src="./img/5.png" alt="" class="grid_img" />
+          <h3 class="item__name">
+            Apricot <br />
+            Danish
+          </h3>
+          <div class="item_counter_wrapper">
+            <div class="item_counter_pls" data-action="plus">+</div>
+            <div class="item_counter" data-counter="">1</div>
+            <div class="item_counter_min" data-action="minus">-</div>
+          </div>
+          <p class="item__price">6£</p>
+          <button data-cart="button" class="item__btn">Add to cart</button>
+        </div>
+        <!-- шестой продутк -->
+        <div id="06" class="grid_items">
+          <img data-aos="zoom-in" src="./img/6.png" alt="" class="grid_img" />
+          <h3 class="item__name">
+            Pain Au <br />
+            Chocolat
+          </h3>
+          <div class="item_counter_wrapper">
+            <div class="item_counter_pls" data-action="plus">+</div>
+            <div class="item_counter" data-counter="">1</div>
+            <div class="item_counter_min" data-action="minus">-</div>
+          </div>
+          <p class="item__price">13£</p>
+          <button data-cart="button" class="item__btn">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- Блок с картинкой -->
+    <div class="img_block"></div>
+    <!-- Блок с категориями -->
+    <div class="category_block">
+      <div data-aos="fade-up" class="category_items">
+        <div class="category__img"></div>
+        <h2 class="category__title">
+          Better than <br />
+          the bakery
+        </h2>
+        <p class="category__subtitle">
+          You’ll soon be making pastries to rival the best <br> bakeries in town.
+          We use only the best <br> ingredients for generous pastries that taste <br>
+          and smell amazing. So good, that you’ll take all the <br> credit.
+        </p>
+      </div>
+      <div data-aos="fade-up" class="category_items">
+        <div class="category__img2"></div>
+        <h2 class="category__title">
+          Planet-friendly <br />
+          packaging
+        </h2>
+        <p class="category__subtitle">
+          We’ve done everything we can to make sure our <br>
+          packaging has the lightest footprint on the <br> planet as possible. We’ve made sure everything <br>
+          is recyclable, and use as little packaging as we <br> can.
+
+        </p>
+      </div>
+      
+      <div data-aos="fade-up" class="category_items">
+        <div class="category__img3"></div>
+        <h2 class="category__title">
+          Simple to bake <br />
+          at home
+        </h2>
+        <p class="category__subtitle">
+          We’ve done the hard work, so you don’t have to. <br>
+          Every pastry is easy to make with our 3-step <br>
+          instructions and doesn’t require any special <br> tools – just an oven!
+
+        </p>
+      </div>
+    </div>
+    <div class="info_block2">
+      <div class="block2_wrapper">
+        <div class="block2_items">
+          <div class="block2_img"></div>
+        </div>
+        <div class="block2_items2">
+          <p class="block2__title">Amazing Ingredients</p>
+          <p class="block2__subtitle">
+            We like to keep things simple and authentic. <br />
+            We’ve sourced the very best from the very <br />
+            best, from our Poitou-Charentes butter to <br />
+            our Valrhona chocolate batons.
+          </p>
+          <button class="block2__btn">Read more</button>
+        </div>
+      </div>
+      <div class="block2_wrapper2">
+        <div class="block2_items3">
+          <p class="block2__title2">Legendary Bakes</p>
+          <p class="block2__subtitle2">
+            The inspiration for our brand and our <br> guiding principles is the
+            Legend of El <br> Tarlà. A young man who brought joy <br> to the isolated
+            citizens of Girona <br> during an outbreak of the plague.
+          </p>
+          <button class="block2__btn2">Read more</button>
+        </div>
+        <div class="block2_items4">
+          <div class="block2_img2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="slider_block">
+      <h2 class="slider__title">
+        @tarlabakes
+      </h2>
+      <div class="slider">
+        <div class="slider_line">
+          <img class="slider_items" src="./img/14.png" alt="">
+          <img class="slider_items" src="./img/15.png" alt="">
+          <img class="slider_items" src="./img/16.png" alt="">
+          <img class="slider_items" src="./img/10.png" alt="">
+          <img class="slider_items" src="./img/11.png" alt="">
+          <img class="slider_items" src="./img/14.png" alt="">
+          <img class="slider_items" src="./img/15.png" alt="">
+          <img class="slider_items" src="./img/16.png" alt="">
+
+        </div>
+
+
+      </div>
+      <div class="slider_buttons">
+        <div class="next__btn">
+          <img src="./icons/arrow_right.png" alt="" />
+        </div>
+        <div class="prev__btn">
+          <img src="./icons/arrow_left.png" alt="" />
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- Кнопки-стрелочки -->
+    <!-- <a class="previous" onclick="previousSlide()">&#10094;</a>
+             <a class="next" onclick="nextSlide()">&#10095;</a> -->
+  </div>
+  <div class="first_footer">
+    <h2 class="first_footer__title">JOIN OUR COMMUNITY</h2>
+    <p class="first_footer__subtitle">and let's get baked</p>
+    <!-- <button class="first_footer__btn">oven@180degrees.com</button> -->
+    <input class="first_footer__btn" type="text" value="oven@180degrees.com">
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="footer_items">
+      <img src="./icons/Tarla.png" alt="">
+      <p class="data">©2021 Tarla</p>
+    </div>
+
+    <div class="footer_items">
+      <h2 class="footer__title">Account</h2>
+      <div class="subtitle_footer">
+        <a href="#">
+          <p class="footer__subtitle">SIGN UP</p>
+        </a>
+        <a href="#">
+          <p class="footer__subtitle">LOG IN</p>
+        </a>
+      </div>
+    </div>
+    <div class="footer_items">
+      <h2 class="footer__title">Our company</h2>
+      <div class="subtitle_footer">
+        <a href="#">
+          <p class="footer__subtitle">Shop</p>
+        </a>
+        <a href="#">
+          <p class="footer__subtitle">Our Story</p>
+        </a>
+        <a href="#">
+          <p class="footer__subtitle">Who is Tarla?</p>
+        </a>
+      </div>
+    </div>
+    <div class="footer_items">
+      <h2 class="footer__title">Resources</h2>
+      <div class="subtitle_footer">
+        <a href="#">
+          <p class="footer__subtitle">FAQ</p>
+        </a>
+        <a href="#">
+          <p class="footer__subtitle">Contact</p>
+        </a>
+        <a href="#">
+          <p class="footer__subtitle">Become an Influencer</p>
+        </a>
+        <a href="#">
+          <p class="footer__subtitle">Privacy Policy</p>
+        </a>
+        <a href="#">
+          <p class="footer__subtitle">Terms of Service</p>
+        </a>
+        <a href="#">
+          <p class="footer__subtitle">Refund Policy</p>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="footer_items">
+      <h2 class="footer__title">@tarlabakes</h2>
+      <div class="social_icons">
+        <img class="ins" src="./icons/social icons/twitter.png" alt="">
+        <img class="ins" src="./icons/social icons/facebook.png" alt="">
+        <img class="ins" src="./icons/social icons/inst.png" alt="">
+        <img class="ins" src="./icons/social icons/tik-tok.png" alt="">
+        <img class="ins" src="./icons/social icons/spotify.png" alt="">
+
+
+
+      </div>
+
+    </div>
+  </footer>
+  <div class="footer_mobile">
+    <div class="footer_wrapper">
+      <img src="./icons/Tarla.png" alt="">
+      <div class="mobile__title">Account <button data-action="+" class="open__summary">+</button>
+      <p  class="mobile__subtitle">SIGN UP</p>
+      <p  class="mobile__subtitle">LOG IN</p>
+      </div> 
+      <div class="mobile__title">Our company<button data-action="+" class="open__summary">+</button>
+        <p class="mobile__subtitle">SHOP</p>
+        <p class="mobile__subtitle">OUR STORY</p>
+        <p class="mobile__subtitle">WHO IS TARLA</p>
+        </div> 
+        <div class="mobile__title">Resources<button data-action="+" class="open__summary">+</button>
+          <p class="mobile__subtitle">FAQ</p>
+          <p class="mobile__subtitle">CONTACT</p>
+          <p class="mobile__subtitle">BECOME AN</p>
+          <p class="mobile__subtitle">INFLUENCER</p>
+          <p class="mobile__subtitle">PRIVACY POLICY</p>
+          <p class="mobile__subtitle">TERMS OF</p>
+          <p class="mobile__subtitle">SERVICE</p>
+          <p class="mobile__subtitle">REFUND POLICY</p>
+          </div> 
+          <div class="mobile_social">
+            <p>@tarlabakes</p>
+            <img src="./icons/social icons/twitter.png" alt="">
+            <img src="./icons/social icons/facebook.png" alt="">
+            <img src="./icons/social icons/inst.png" alt="">
+            <img src="./icons/social icons/tik-tok.png" alt="">
+            <img src="./icons/social icons/spotify.png" alt="">
+          </div>
+
+  
+
+  
+
+
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+
+  <!-- data-aos="zoom-in" -->
+
+  </div>
+  <script src="./script/footerMobile.js"></script>
+  <script src="./script/cardPrice.js"></script>
+  <script src="./script/counter.js"></script>
+  <script src="./script/slider.js"></script>
+  <script src="./script/script.js"></script>
+  <script src="./script/card.js"></script>
+  <script src="./script/cardLenght.js"></script>
+  <script src="./script/postcode.js"></script>
+  <script src="./script/onload.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+</html>
